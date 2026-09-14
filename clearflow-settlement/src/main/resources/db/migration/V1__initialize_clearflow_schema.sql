@@ -1,0 +1,4 @@
+-- ClearFlow Payment Domain
+-- Initial Flyway migration.
+--
+-- Business tables will be introduced in subsequent migrations.
