@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.clearflow.settlement.dto.IngestionRequest;
 import com.clearflow.settlement.dto.IngestionResponse;
 import com.clearflow.settlement.entity.IngestionRequestEntity;
+import com.clearflow.settlement.exception.DuplicateIngestionRequestException;
 import com.clearflow.settlement.repository.IngestionRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -21,6 +22,19 @@ public class IngestionService {
 
     @Transactional
     public IngestionResponse saveIngestionRequest(IngestionRequest ingestionRequest) {
+        
+        //logic to check if same req id against same source system exists
+        
+        ingestionRepository.findByRequestIdAndSourceSystem(
+            ingestionRequest.requestId(),
+            ingestionRequest.sourceSystem()
+        ).ifPresent(existingRequest -> {
+            throw new DuplicateIngestionRequestException(
+                ingestionRequest.requestId(),
+                ingestionRequest.sourceSystem()
+            );
+        });
+
 
         OffsetDateTime now = OffsetDateTime.now();
 
