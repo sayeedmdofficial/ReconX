@@ -14,9 +14,8 @@ public record IngestionRequest(
 
                 @NotNull(message = "sourceChannel is required") SourceChannel sourceChannel,
 
-                @NotBlank(message = "correlationId is required") @Size(max = 100, message = "correlationId must not exceed 100 characters") String correlationId,
+                @NotBlank(message = "correlationId is required") @Size(max = 100, message = "correlationId must not exceed 100 characters") String correlationId
 
-                @Size(max = 64, message = "traceId must not exceed 64 characters") String traceId
 
 ) {
 }

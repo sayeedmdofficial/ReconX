@@ -1,0 +1,570 @@
+2026-09-29T22:19:51.934+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 25692 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:19:51.934+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:19:52.490+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:19:52.515+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2026-09-29T22:19:52.764+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:19:52.768+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:19:52.768+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:19:52.825+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:19:52.825+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 883 ms
+2026-09-29T22:19:53.196+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:19:53.232+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.024s)
+2026-09-29T22:19:53.434+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:19:53.448+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:19:53.526+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:19:53.538+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:19:53.562+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:19:53.568+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-09-29T22:19:53.681+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@7a2d723c
+2026-09-29T22:19:53.684+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-09-29T22:19:53.691+05:30  WARN 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:19:53.698+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:19:53.814+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:19:55.272+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:19:55.674+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:19:55.699+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:19:55.761+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:19:55.777+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 3.908 seconds (process running for 230.094)
+2026-09-29T22:19:55.785+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   InfoEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   InfoEndpointAutoConfiguration#infoEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.info.InfoEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LogFileWebEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/clearflow-settlement.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LoggersEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   LoggersEndpointAutoConfiguration#loggersEndpoint matched:
+      - Logging System enabled (LoggersEndpointAutoConfiguration.OnEnabledLoggingSystemCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.logging.LoggingSystem; SearchStrategy: all) found bean 'springBootLoggingSystem'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LoggersEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-09-29T22:19:57.177+05:30  INFO 25692 --- [File Watcher] [clearflow-settlement,traceId=,spanId=] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-29T22:19:57.177+05:30  INFO 25692 --- [Thread-9] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29T22:19:57.193+05:30  INFO 25692 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-29T22:19:57.193+05:30  INFO 25692 --- [Thread-9] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:19:57.193+05:30  INFO 25692 --- [Thread-9] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-09-29T22:19:57.217+05:30  INFO 25692 --- [Thread-9] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-09-29T22:19:57.374+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 25692 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:19:57.374+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:19:57.845+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:19:57.866+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2026-09-29T22:19:57.969+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:19:57.976+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:19:57.977+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:19:58.010+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:19:58.010+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2026-09-29T22:19:58.205+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:19:58.232+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.018s)
+2026-09-29T22:19:58.339+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:19:58.341+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:19:58.378+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:19:58.384+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:19:58.403+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:19:58.416+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-09-29T22:19:58.584+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@36957773
+2026-09-29T22:19:58.585+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-09-29T22:19:58.595+05:30  WARN 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:19:58.601+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:19:58.774+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:19:58.956+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:19:59.311+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:19:59.317+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:19:59.362+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:19:59.366+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.048 seconds (process running for 233.689)
+2026-09-29T22:19:59.376+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-29T22:20:00.776+05:30  INFO 25692 --- [File Watcher] [clearflow-settlement,traceId=,spanId=] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-29T22:20:00.776+05:30  INFO 25692 --- [Thread-13] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29T22:20:00.797+05:30  INFO 25692 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-29T22:20:00.801+05:30  INFO 25692 --- [Thread-13] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:20:00.802+05:30  INFO 25692 --- [Thread-13] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-09-29T22:20:00.813+05:30  INFO 25692 --- [Thread-13] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-09-29T22:20:00.977+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 25692 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:20:00.977+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:20:01.427+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:20:01.443+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2026-09-29T22:20:01.540+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:20:01.540+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:20:01.549+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:20:01.586+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:20:01.586+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 609 ms
+2026-09-29T22:20:01.844+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:20:01.866+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.015s)
+2026-09-29T22:20:01.982+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:20:01.985+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:20:02.024+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:20:02.028+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:20:02.047+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:20:02.049+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-09-29T22:20:02.149+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@4cfca5f3
+2026-09-29T22:20:02.149+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-09-29T22:20:02.151+05:30  WARN 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:20:02.159+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:20:02.234+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:20:02.372+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:20:02.670+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:20:02.670+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:20:02.711+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:20:02.725+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 1.797 seconds (process running for 237.044)
+2026-09-29T22:20:02.731+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-29T22:20:04.131+05:30  INFO 25692 --- [File Watcher] [clearflow-settlement,traceId=,spanId=] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-29T22:20:04.133+05:30  INFO 25692 --- [Thread-17] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29T22:20:04.151+05:30  INFO 25692 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-29T22:20:04.151+05:30  INFO 25692 --- [Thread-17] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:20:04.155+05:30  INFO 25692 --- [Thread-17] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-09-29T22:20:04.165+05:30  INFO 25692 --- [Thread-17] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-09-29T22:20:04.325+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 25692 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:20:04.326+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:20:04.890+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:20:04.913+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2026-09-29T22:20:05.018+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:20:05.019+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:20:05.019+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:20:05.051+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:20:05.052+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 722 ms
+2026-09-29T22:20:05.333+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:20:05.358+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.016s)
+2026-09-29T22:20:05.482+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:20:05.487+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:20:05.539+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:20:05.547+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:20:05.565+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:20:05.567+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-09-29T22:20:05.677+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@13d27b76
+2026-09-29T22:20:05.677+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-09-29T22:20:05.682+05:30  WARN 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:20:05.689+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:20:05.768+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:20:05.895+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:20:06.190+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:20:06.195+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:20:06.226+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:20:06.244+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 1.96 seconds (process running for 240.565)
+2026-09-29T22:20:06.244+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-29T22:21:55.535+05:30  INFO 25692 --- [File Watcher] [clearflow-settlement,traceId=,spanId=] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-29T22:21:55.538+05:30  INFO 25692 --- [Thread-21] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29T22:21:55.559+05:30  INFO 25692 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-29T22:21:55.562+05:30  INFO 25692 --- [Thread-21] [clearflow-settlement,traceId=,spanId=] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:21:55.565+05:30  INFO 25692 --- [Thread-21] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-09-29T22:21:55.579+05:30  INFO 25692 --- [Thread-21] [clearflow-settlement,traceId=,spanId=] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-09-29T22:21:55.733+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 25692 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:21:55.734+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:21:56.328+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:21:56.351+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-09-29T22:21:56.474+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:21:56.475+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:21:56.475+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:21:56.511+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:21:56.511+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
+2026-09-29T22:21:56.746+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:21:56.775+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.017s)
+2026-09-29T22:21:56.893+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:21:56.896+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:21:56.930+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:21:56.934+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:21:56.947+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:21:56.948+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-09-29T22:21:57.048+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection oracle.jdbc.driver.T4CConnection@7e2817e2
+2026-09-29T22:21:57.048+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-09-29T22:21:57.053+05:30  WARN 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:21:57.058+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:21:57.136+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:21:57.277+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:21:57.623+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:21:57.630+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:21:57.658+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:21:57.671+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 1.985 seconds (process running for 351.99)
+2026-09-29T22:21:57.677+05:30  INFO 25692 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-29T22:22:01.210+05:30  INFO 25692 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-29T22:22:01.227+05:30  INFO 25692 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-29T22:22:01.231+05:30  INFO 25692 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:22:01.232+05:30  INFO 25692 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-09-29T22:22:01.240+05:30  INFO 25692 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-09-29T22:22:12.443+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 28040 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-09-29T22:22:12.448+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-09-29T22:22:12.507+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\mdsay\.m2\repository\com\oracle\database\jdbc\ojdbc17\23.7.0.25.01\ojdbc17-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/mdsay/.m2/repository/com/oracle/database/jdbc/ojdbc17/23.7.0.25.01/oraclepki.jar
+2026-09-29T22:22:12.513+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-29T22:22:12.513+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-29T22:22:13.832+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-29T22:22:13.913+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2026-09-29T22:22:14.501+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-29T22:22:14.521+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-29T22:22:14.521+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-09-29T22:22:14.582+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-29T22:22:14.583+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2070 ms
+2026-09-29T22:22:15.746+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-09-29T22:22:16.116+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 10 migrations (execution time 00:00.051s)
+2026-09-29T22:22:16.204+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 10
+2026-09-29T22:22:16.218+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-09-29T22:22:16.317+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-29T22:22:16.390+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-09-29T22:22:16.435+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-29T22:22:16.796+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-29T22:22:16.835+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-29T22:22:16.925+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@48633139
+2026-09-29T22:22:16.928+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-29T22:22:16.978+05:30  WARN 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-09-29T22:22:17.008+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-29T22:22:18.146+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-29T22:22:18.330+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-29T22:22:19.362+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-29T22:22:19.371+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-09-29T22:22:19.472+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-29T22:22:19.491+05:30  INFO 28040 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 7.66 seconds (process running for 8.26)
+2026-09-29T22:22:52.218+05:30  INFO 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-29T22:22:52.219+05:30  INFO 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-29T22:22:52.221+05:30  INFO 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-09-29T22:22:52.343+05:30  WARN 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=246fa2cbad82e15064597da22157688f,spanId=08c06e8fbc49b889]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T22:22:52.377+05:30  WARN 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=246fa2cbad82e15064597da22157688f,spanId=08c06e8fbc49b889].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T22:23:26.827+05:30 ERROR 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=0f201400e8c19932cbd96e47f3b48e8d,spanId=c5fc894e84d5c64e]c.c.s.exception.GlobalExceptionHandler   : Unexpected exception while processing request. path=/favicon.ico
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-29T22:23:26.838+05:30  WARN 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=0f201400e8c19932cbd96e47f3b48e8d,spanId=c5fc894e84d5c64e].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-09-29T22:23:35.992+05:30 ERROR 28040 --- [http-nio-8080-exec-6] [clearflow-settlement,traceId=cfecbdc10d708e963404cc7ed701b6b6,spanId=a667863983272856]c.c.s.exception.GlobalExceptionHandler   : Unexpected exception while processing request. path=/favicon.ico
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-29T22:23:35.996+05:30  WARN 28040 --- [http-nio-8080-exec-6] [clearflow-settlement,traceId=cfecbdc10d708e963404cc7ed701b6b6,spanId=a667863983272856].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-09-29T22:25:26.821+05:30  WARN 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=6e5280f0cd129ded3674072b781d6a2a,spanId=8147fb9bb8e1258f]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T22:25:26.822+05:30  WARN 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=6e5280f0cd129ded3674072b781d6a2a,spanId=8147fb9bb8e1258f].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T22:25:28.140+05:30  WARN 28040 --- [http-nio-8080-exec-4] [clearflow-settlement,traceId=7a505692931c95141da4b55a23004dd1,spanId=000b7d1591ec832f]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T22:25:28.144+05:30  WARN 28040 --- [http-nio-8080-exec-4] [clearflow-settlement,traceId=7a505692931c95141da4b55a23004dd1,spanId=000b7d1591ec832f].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T23:47:28.958+05:30  WARN 28040 --- [http-nio-8080-exec-7] [clearflow-settlement,traceId=7df8e363219f9ece8ba4d2c33cde6ec0,spanId=19a26a9de80b3489]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T23:47:28.962+05:30  WARN 28040 --- [http-nio-8080-exec-7] [clearflow-settlement,traceId=7df8e363219f9ece8ba4d2c33cde6ec0,spanId=19a26a9de80b3489].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T23:50:31.793+05:30 ERROR 28040 --- [http-nio-8080-exec-9] [clearflow-settlement,traceId=b6fb9e8d8f5b9304803199aeb0db4db0,spanId=56a9eba204b63115]c.c.s.exception.GlobalExceptionHandler   : Unexpected exception while processing request. path=/favicon.ico
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-29T23:50:31.797+05:30  WARN 28040 --- [http-nio-8080-exec-9] [clearflow-settlement,traceId=b6fb9e8d8f5b9304803199aeb0db4db0,spanId=56a9eba204b63115].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-09-29T23:50:49.905+05:30  WARN 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=4218d6e0cc93be6cc85a6a22be89c5df,spanId=c755df8b1d1ea11c]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T23:50:49.906+05:30  WARN 28040 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=4218d6e0cc93be6cc85a6a22be89c5df,spanId=c755df8b1d1ea11c].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T23:51:13.048+05:30 ERROR 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=7ce5bc6ce0b88c74f6d8eabb45fb4fbe,spanId=440fb39efe36199a]c.c.s.exception.GlobalExceptionHandler   : Unexpected exception while processing request. path=/favicon.ico
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-29T23:51:13.053+05:30  WARN 28040 --- [http-nio-8080-exec-2] [clearflow-settlement,traceId=7ce5bc6ce0b88c74f6d8eabb45fb4fbe,spanId=440fb39efe36199a].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-09-29T23:53:36.020+05:30  WARN 28040 --- [http-nio-8080-exec-6] [clearflow-settlement,traceId=7a97692fe8d6cd6f619ead947c69403e,spanId=0f12ed82ea07178a]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T23:53:36.022+05:30  WARN 28040 --- [http-nio-8080-exec-6] [clearflow-settlement,traceId=7a97692fe8d6cd6f619ead947c69403e,spanId=0f12ed82ea07178a].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T23:53:40.431+05:30  WARN 28040 --- [http-nio-8080-exec-7] [clearflow-settlement,traceId=09be1ff07829053ca91146e805e0ef9e,spanId=75c5d65053a08273]c.c.s.exception.GlobalExceptionHandler   : Malformed request payload. path=/api/v1/ingestion
+2026-09-29T23:53:40.432+05:30  WARN 28040 --- [http-nio-8080-exec-7] [clearflow-settlement,traceId=09be1ff07829053ca91146e805e0ef9e,spanId=75c5d65053a08273].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.clearflow.settlement.enums.SourceChannel` from String "API": not one of the values accepted for Enum class: [BATCH_FILE, KAFKA, REST_API]]
+2026-09-29T23:54:14.661+05:30  INFO 28040 --- [http-nio-8080-exec-8] [clearflow-settlement,traceId=59dfd9ec98727c11740ae21a3c92313b,spanId=9b71dec4ab7c9904]c.c.settlement.service.IngestionService  : Processing ingestion request requestId=REQ-20260929-000101 sourceSystem=CORE_BANKING_SYSTEM
+2026-09-29T23:54:14.923+05:30  INFO 28040 --- [http-nio-8080-exec-8] [clearflow-settlement,traceId=59dfd9ec98727c11740ae21a3c92313b,spanId=9b71dec4ab7c9904]c.c.settlement.service.IngestionService  : Ingestion request persisted ingestionId=9242e125-07e1-46de-9dc0-3c1abfdcbb12 requestId=REQ-20260929-000101
+2026-09-29T23:54:37.861+05:30 ERROR 28040 --- [http-nio-8080-exec-10] [clearflow-settlement,traceId=62a4b32a958c10f49e6eb925b8264df2,spanId=8661412e34c69f06]c.c.s.exception.GlobalExceptionHandler   : Unexpected exception while processing request. path=/favicon.ico
+
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-09-29T23:54:37.863+05:30  WARN 28040 --- [http-nio-8080-exec-10] [clearflow-settlement,traceId=62a4b32a958c10f49e6eb925b8264df2,spanId=8661412e34c69f06].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2026-09-29T23:55:06.271+05:30  INFO 28040 --- [http-nio-8080-exec-3] [clearflow-settlement,traceId=9c82f9a4eb44787d55f9e4801af9945e,spanId=8b4fb800b4a431bb]c.c.settlement.service.IngestionService  : Processing ingestion request requestId=REQ-20260929-000101 sourceSystem=CORE_BANKING_SYSTEM
+2026-09-29T23:55:06.277+05:30  WARN 28040 --- [http-nio-8080-exec-3] [clearflow-settlement,traceId=9c82f9a4eb44787d55f9e4801af9945e,spanId=8b4fb800b4a431bb]c.c.settlement.service.IngestionService  : Duplicate ingestion request detected requestId=REQ-20260929-000101 sourceSystem=CORE_BANKING_SYSTEM
+2026-09-29T23:55:06.286+05:30  WARN 28040 --- [http-nio-8080-exec-3] [clearflow-settlement,traceId=9c82f9a4eb44787d55f9e4801af9945e,spanId=8b4fb800b4a431bb]c.c.s.exception.GlobalExceptionHandler   : Duplicate ingestion request. path=/api/v1/ingestion
+2026-09-29T23:55:06.288+05:30  WARN 28040 --- [http-nio-8080-exec-3] [clearflow-settlement,traceId=9c82f9a4eb44787d55f9e4801af9945e,spanId=8b4fb800b4a431bb].m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.clearflow.settlement.exception.DuplicateIngestionRequestException: Ingestion request already exists for requestId=REQ-20260929-000101 and sourceSystem=CORE_BANKING_SYSTEM]
