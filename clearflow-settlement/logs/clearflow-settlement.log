@@ -497,3 +497,1033 @@ org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauth
 2026-10-04T12:45:04.563+05:30  INFO 15620 --- [Thread-29] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
 2026-10-04T12:45:04.783+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 15620 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
 2026-10-04T12:45:04.784+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T12:45:05.412+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T12:45:05.446+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2026-10-04T12:45:05.569+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T12:45:05.570+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T12:45:05.571+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T12:45:05.603+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T12:45:05.603+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2026-10-04T12:45:05.815+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T12:45:05.839+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 11 migrations (execution time 00:00.019s)
+2026-10-04T12:45:05.972+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 11
+2026-10-04T12:45:05.975+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T12:45:06.011+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T12:45:06.015+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T12:45:06.027+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T12:45:06.028+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-10-04T12:45:06.133+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection oracle.jdbc.driver.T4CConnection@732d621d
+2026-10-04T12:45:06.133+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-10-04T12:45:06.137+05:30  WARN 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T12:45:06.141+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T12:45:06.231+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T12:45:06.364+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T12:45:06.725+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T12:45:06.729+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T12:45:06.766+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T12:45:06.778+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.054 seconds (process running for 766.96)
+2026-10-04T12:45:06.781+05:30  INFO 15620 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T18:14:09.355+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 11604 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T18:14:09.355+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T18:14:09.431+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\mdsay\.m2\repository\com\oracle\database\jdbc\ojdbc17\23.7.0.25.01\ojdbc17-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/mdsay/.m2/repository/com/oracle/database/jdbc/ojdbc17/23.7.0.25.01/oraclepki.jar
+2026-10-04T18:14:09.432+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-04T18:14:09.432+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-04T18:14:10.693+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T18:14:10.773+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2026-10-04T18:14:11.439+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T18:14:11.460+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T18:14:11.460+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T18:14:11.534+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T18:14:11.534+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2102 ms
+2026-10-04T18:14:12.798+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T18:14:13.191+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.059s)
+2026-10-04T18:14:13.280+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 11
+2026-10-04T18:14:13.296+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Migrating schema "CLEARFLOW" to version "12 - link payment instruction to ingestion"
+2026-10-04T18:14:13.509+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Successfully applied 1 migration to schema "CLEARFLOW", now at version v12 (execution time 00:00.180s)
+2026-10-04T18:14:13.616+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T18:14:13.689+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-10-04T18:14:13.735+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T18:14:14.109+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T18:14:14.153+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-04T18:14:14.263+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3983fce1
+2026-10-04T18:14:14.267+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-04T18:14:14.326+05:30  WARN 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T18:14:14.368+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T18:14:15.852+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T18:14:16.076+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T18:14:17.743+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T18:14:17.758+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T18:14:17.883+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T18:14:17.903+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 9.181 seconds (process running for 9.878)
+2026-10-04T19:34:17.033+05:30  INFO 11604 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 48 class path changes (1 addition, 13 deletions, 34 modifications)
+2026-10-04T19:34:17.042+05:30  INFO 11604 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T19:34:17.066+05:30  INFO 11604 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T19:34:17.075+05:30  INFO 11604 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T19:34:17.080+05:30  INFO 11604 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-04T19:34:17.093+05:30  INFO 11604 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-04T19:34:17.292+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 11604 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T19:34:17.293+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T19:34:18.218+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T19:34:18.255+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2026-10-04T19:34:18.443+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T19:34:18.447+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T19:34:18.448+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T19:34:18.485+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T19:34:18.487+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1189 ms
+2026-10-04T19:34:18.756+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T19:34:18.790+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.023s)
+2026-10-04T19:34:18.927+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T19:34:18.932+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T19:34:18.978+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T19:34:18.983+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T19:34:18.999+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T19:34:19.001+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-04T19:34:19.082+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@358018f8
+2026-10-04T19:34:19.082+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-04T19:34:19.087+05:30  WARN 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T19:34:19.091+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T19:34:19.202+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T19:34:19.441+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T19:34:19.796+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T19:34:19.801+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T19:34:19.837+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T19:34:19.849+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.632 seconds (process running for 4811.823)
+2026-10-04T19:34:19.850+05:30  INFO 11604 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T19:34:19.852+05:30  INFO 11604 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T19:34:19.869+05:30  INFO 11604 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T19:34:19.873+05:30  INFO 11604 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T19:34:19.874+05:30  INFO 11604 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-10-04T19:34:19.941+05:30  INFO 11604 --- [SpringApplicationShutdownHook] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-10-04T21:37:46.981+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:37:46.984+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:37:47.053+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\mdsay\.m2\repository\com\oracle\database\jdbc\ojdbc17\23.7.0.25.01\ojdbc17-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/mdsay/.m2/repository/com/oracle/database/jdbc/ojdbc17/23.7.0.25.01/oraclepki.jar
+2026-10-04T21:37:47.053+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-04T21:37:47.053+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-04T21:37:48.633+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:37:48.736+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:37:49.573+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:37:49.591+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:37:49.591+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:37:49.674+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:37:49.676+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2623 ms
+2026-10-04T21:37:51.051+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:37:51.566+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.166s)
+2026-10-04T21:37:51.677+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:37:51.683+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:37:51.820+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:37:51.903+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-10-04T21:37:51.952+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:37:52.332+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:37:52.375+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-04T21:37:52.482+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@364eb4c7
+2026-10-04T21:37:52.485+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-04T21:37:52.537+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:37:52.568+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:37:53.680+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:37:53.907+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:37:54.175+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:37:55.545+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:37:55.554+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:37:55.656+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:37:55.675+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 9.361 seconds (process running for 10.023)
+2026-10-04T21:39:35.087+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-04T21:39:35.093+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-04T21:39:35.094+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-04T21:39:35.371+05:30  WARN 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=dcab7b52cf198f120efe5044488bf0a6,spanId=f952503385a72691]o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1400, SQLState: 23000
+2026-10-04T21:39:35.371+05:30 ERROR 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=dcab7b52cf198f120efe5044488bf0a6,spanId=f952503385a72691]o.h.engine.jdbc.spi.SqlExceptionHelper   : ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+2026-10-04T21:39:35.385+05:30 ERROR 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=dcab7b52cf198f120efe5044488bf0a6,spanId=f952503385a72691]c.c.s.exception.GlobalExceptionHandler   : Database integrity violation. path=/api/v1/payment
+
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")
+
+https://docs.oracle.com/error-help/db/ora-01400/] [insert into cf_payment_instruction (amount,created_at,creditor_account_ref,creditor_participant_id,currency,debtor_account_ref,debtor_participant_id,external_reference,ingestion_id,payment_reference,payment_type,requested_settlement_date,source_system,status,updated_at,version_no,payment_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into cf_payment_instruction (amount,created_at,creditor_account_ref,creditor_participant_id,currency,debtor_account_ref,debtor_participant_id,external_reference,ingestion_id,payment_reference,payment_type,requested_settlement_date,source_system,status,updated_at,version_no,payment_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:294) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:567) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.clearflow.settlement.service.PaymentService$$SpringCGLIB$$0.savePaymentDetails(<generated>) ~[classes/:na]
+	at com.clearflow.settlement.controller.PaymentController.savePaymentDetails(PaymentController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")
+
+https://docs.oracle.com/error-help/db/ora-01400/] [insert into cf_payment_instruction (amount,created_at,creditor_account_ref,creditor_participant_id,currency,debtor_account_ref,debtor_participant_id,external_reference,ingestion_id,payment_reference,payment_type,requested_settlement_date,source_system,status,updated_at,version_no,payment_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:563) ~[spring-orm-6.2.12.jar:6.2.12]
+	... 61 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")
+
+https://docs.oracle.com/error-help/db/ora-01400/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:969) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1508) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2009) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1622) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecuteLargeUpdate(OraclePreparedStatement.java:4339) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:4316) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:4291) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1004) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	... 82 common frames omitted
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723) ~[ojdbc17-23.7.0.25.01.jar:23.7.0.25.01]
+	... 99 common frames omitted
+
+2026-10-04T21:39:35.427+05:30  WARN 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=dcab7b52cf198f120efe5044488bf0a6,spanId=f952503385a72691].m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement [ORA-01400: cannot insert NULL into ("CLEARFLOW"."CF_PAYMENT_INSTRUCTION"."SOURCE_SYSTEM")<EOL><EOL><EOL>https://docs.oracle.com/error-help/db/ora-01400/] [insert into cf_payment_instruction (amount,created_at,creditor_account_ref,creditor_participant_id,currency,debtor_account_ref,debtor_participant_id,external_reference,ingestion_id,payment_reference,payment_type,requested_settlement_date,source_system,status,updated_at,version_no,payment_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into cf_payment_instruction (amount,created_at,creditor_account_ref,creditor_participant_id,currency,debtor_account_ref,debtor_participant_id,external_reference,ingestion_id,payment_reference,payment_type,requested_settlement_date,source_system,status,updated_at,version_no,payment_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [null]]
+2026-10-04T21:43:58.438+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:43:58.445+05:30  INFO 13564 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:43:58.469+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:43:58.476+05:30  INFO 13564 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:43:58.483+05:30  INFO 13564 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-04T21:43:58.499+05:30  INFO 13564 --- [Thread-7] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-04T21:43:58.713+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:43:58.714+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:43:59.421+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:43:59.473+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:43:59.630+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:43:59.631+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:43:59.632+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:43:59.663+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:43:59.663+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 944 ms
+2026-10-04T21:43:59.911+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:43:59.946+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.023s)
+2026-10-04T21:44:00.085+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:00.085+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:00.121+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:00.136+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:00.154+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:00.156+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-04T21:44:00.267+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@9000534
+2026-10-04T21:44:00.267+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-04T21:44:00.278+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:00.286+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:00.510+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:00.531+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:00.732+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:01.698+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:44:01.700+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:44:01.771+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:44:01.788+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 3.141 seconds (process running for 376.137)
+2026-10-04T21:44:01.793+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:44:05.316+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-10-04T21:44:05.316+05:30  INFO 13564 --- [Thread-9] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:44:05.332+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:44:05.341+05:30  INFO 13564 --- [Thread-9] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:05.341+05:30  INFO 13564 --- [Thread-9] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-10-04T21:44:05.353+05:30  INFO 13564 --- [Thread-9] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-10-04T21:44:05.519+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:05.519+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:05.996+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:06.018+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:06.148+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:06.148+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:06.148+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:06.194+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:06.194+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 675 ms
+2026-10-04T21:44:06.548+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:06.591+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.029s)
+2026-10-04T21:44:06.744+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:06.748+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:06.802+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:06.810+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:06.831+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:06.833+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-10-04T21:44:06.932+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@3d60c43b
+2026-10-04T21:44:06.932+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-10-04T21:44:06.937+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:06.942+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:07.123+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:07.143+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:07.339+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:07.537+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+2026-10-04T21:44:07.537+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:07.537+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-10-04T21:44:07.583+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-10-04T21:44:07.585+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]i.o.sdk.logs.SdkLoggerProvider           : Calling shutdown() multiple times.
+2026-10-04T21:44:07.585+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]i.o.sdk.trace.SdkTracerProvider          : Calling shutdown() multiple times.
+2026-10-04T21:44:07.586+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-04T21:44:07.589+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BatchSpanProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.trace.export.BatchSpanProcessor$Worker.run(BatchSpanProcessor.java:266)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-04T21:44:07.590+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BatchLogRecordProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.logs.export.BatchLogRecordProcessor$Worker.run(BatchLogRecordProcessor.java:246)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-04T21:44:07.608+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-04T21:44:07.649+05:30 ERROR 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.clearflow.settlement.ClearflowSettlementApplication.main(ClearflowSettlementApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 37 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+
+	at com.clearflow.settlement.service.PaymentService.<init>(PaymentService.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 39 common frames omitted
+
+2026-10-04T21:44:09.181+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:09.181+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:09.983+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:10.048+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:10.300+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:10.305+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:10.306+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:10.352+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:10.352+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2026-10-04T21:44:10.615+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:10.644+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.022s)
+2026-10-04T21:44:10.777+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:10.781+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:10.820+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:10.831+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:10.852+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:10.854+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-10-04T21:44:10.943+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@4cd27ff9
+2026-10-04T21:44:10.943+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-10-04T21:44:10.945+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:10.952+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:11.086+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:11.107+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:11.275+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:11.416+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+2026-10-04T21:44:11.417+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:11.417+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-10-04T21:44:11.504+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-10-04T21:44:11.504+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]i.o.sdk.logs.SdkLoggerProvider           : Calling shutdown() multiple times.
+2026-10-04T21:44:11.504+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]i.o.sdk.trace.SdkTracerProvider          : Calling shutdown() multiple times.
+2026-10-04T21:44:11.504+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-10-04T21:44:11.504+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BatchSpanProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.trace.export.BatchSpanProcessor$Worker.run(BatchSpanProcessor.java:266)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-04T21:44:11.504+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [BatchLogRecordProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.logs.export.BatchLogRecordProcessor$Worker.run(BatchLogRecordProcessor.java:246)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+2026-10-04T21:44:11.504+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-10-04T21:44:11.520+05:30 ERROR 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\controller\PaymentController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.clearflow.settlement.ClearflowSettlementApplication.main(ClearflowSettlementApplication.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes\com\clearflow\settlement\service\PaymentService.class]: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.clearflow.settlement.service.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.12.jar:6.2.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 37 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+
+	at com.clearflow.settlement.service.PaymentService.<init>(PaymentService.java:18) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.12.jar:6.2.12]
+	... 39 common frames omitted
+
+2026-10-04T21:44:13.070+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:13.070+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:13.513+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:13.538+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:13.639+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:13.641+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:13.641+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:13.670+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:13.670+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 593 ms
+2026-10-04T21:44:13.889+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:13.911+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.019s)
+2026-10-04T21:44:14.013+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:14.013+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:14.045+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:14.045+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:14.061+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:14.061+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-10-04T21:44:14.141+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@77f8e328
+2026-10-04T21:44:14.141+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-10-04T21:44:14.141+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:14.141+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:14.341+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:14.369+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:14.567+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:14.950+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:44:14.960+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:44:15.069+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:44:15.097+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.067 seconds (process running for 389.445)
+2026-10-04T21:44:15.111+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:44:43.651+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:44:43.653+05:30  INFO 13564 --- [Thread-13] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:44:43.672+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:44:43.675+05:30  INFO 13564 --- [Thread-13] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:43.676+05:30  INFO 13564 --- [Thread-13] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-10-04T21:44:43.686+05:30  INFO 13564 --- [Thread-13] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-10-04T21:44:43.883+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:43.883+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:44.567+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:44.606+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:44.754+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:44.758+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:44.760+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:44.819+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:44.820+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2026-10-04T21:44:45.080+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:45.108+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.020s)
+2026-10-04T21:44:45.221+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:45.223+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:45.253+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:45.257+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:45.270+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:45.272+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-10-04T21:44:45.349+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection oracle.jdbc.driver.T4CConnection@5aa75381
+2026-10-04T21:44:45.350+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-10-04T21:44:45.353+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:45.357+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:45.448+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:45.463+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:45.605+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:46.120+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:44:46.125+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:44:46.167+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:44:46.178+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.339 seconds (process running for 420.527)
+2026-10-04T21:44:46.181+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:44:48.679+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:44:48.680+05:30  INFO 13564 --- [Thread-23] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:44:48.698+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:44:48.701+05:30  INFO 13564 --- [Thread-23] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:48.701+05:30  INFO 13564 --- [Thread-23] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-10-04T21:44:48.711+05:30  INFO 13564 --- [Thread-23] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-10-04T21:44:48.926+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:48.926+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:49.730+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:49.780+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:50.078+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:50.079+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:50.080+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:50.115+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:50.116+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1187 ms
+2026-10-04T21:44:50.382+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:50.406+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.017s)
+2026-10-04T21:44:50.542+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:50.543+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:50.579+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:50.583+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:50.601+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:50.602+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-10-04T21:44:50.700+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection oracle.jdbc.driver.T4CConnection@59b3b8f0
+2026-10-04T21:44:50.700+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-10-04T21:44:50.703+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:50.708+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:50.806+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:50.821+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:50.954+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:51.357+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:44:51.363+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:44:51.393+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:44:51.407+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.523 seconds (process running for 425.755)
+2026-10-04T21:44:51.409+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:44:52.847+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:44:52.849+05:30  INFO 13564 --- [Thread-27] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:44:52.868+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:44:52.871+05:30  INFO 13564 --- [Thread-27] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:52.872+05:30  INFO 13564 --- [Thread-27] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-10-04T21:44:52.883+05:30  INFO 13564 --- [Thread-27] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-10-04T21:44:53.076+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:44:53.076+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:44:53.581+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:44:53.612+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:44:53.726+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:44:53.727+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:44:53.727+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:44:53.760+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:44:53.760+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 681 ms
+2026-10-04T21:44:53.954+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:44:53.985+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.023s)
+2026-10-04T21:44:54.161+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:44:54.164+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:44:54.203+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:44:54.209+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:44:54.222+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:44:54.224+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-10-04T21:44:54.319+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection oracle.jdbc.driver.T4CConnection@7a8228fc
+2026-10-04T21:44:54.319+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-10-04T21:44:54.324+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:44:54.327+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:44:54.406+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:44:54.417+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:44:54.616+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:44:55.324+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:44:55.332+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:44:55.383+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:44:55.400+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.361 seconds (process running for 429.751)
+2026-10-04T21:44:55.400+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:06.244+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:06.246+05:30  INFO 13564 --- [Thread-31] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:06.409+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:06.419+05:30  INFO 13564 --- [Thread-31] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:06.420+05:30  INFO 13564 --- [Thread-31] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-10-04T21:45:06.437+05:30  INFO 13564 --- [Thread-31] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-10-04T21:45:06.685+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:06.685+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:07.309+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:07.336+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:07.447+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:07.447+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:07.447+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:07.480+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:07.481+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 793 ms
+2026-10-04T21:45:07.686+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:07.710+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.017s)
+2026-10-04T21:45:07.864+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:07.866+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:07.896+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:07.902+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:07.916+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:07.917+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2026-10-04T21:45:08.015+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection oracle.jdbc.driver.T4CConnection@1719414
+2026-10-04T21:45:08.015+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2026-10-04T21:45:08.019+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:08.025+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:08.140+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:08.149+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:08.327+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:08.738+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:08.747+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:08.791+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:08.807+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.164 seconds (process running for 443.155)
+2026-10-04T21:45:08.810+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:10.264+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:10.267+05:30  INFO 13564 --- [Thread-35] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:10.285+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:10.289+05:30  INFO 13564 --- [Thread-35] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:10.290+05:30  INFO 13564 --- [Thread-35] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2026-10-04T21:45:10.300+05:30  INFO 13564 --- [Thread-35] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2026-10-04T21:45:10.491+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:10.492+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:10.999+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:11.028+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:11.153+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:11.155+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:11.155+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:11.200+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:11.200+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 706 ms
+2026-10-04T21:45:11.409+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:11.434+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.018s)
+2026-10-04T21:45:11.570+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:11.571+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:11.613+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:11.618+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:11.632+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:11.633+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2026-10-04T21:45:11.740+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection oracle.jdbc.driver.T4CConnection@7892e758
+2026-10-04T21:45:11.740+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2026-10-04T21:45:11.744+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:11.749+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:11.869+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:11.883+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:12.028+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:12.377+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:12.381+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:12.423+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:12.437+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 1.982 seconds (process running for 446.785)
+2026-10-04T21:45:12.441+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:46.195+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:46.197+05:30  INFO 13564 --- [Thread-39] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:46.216+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:46.219+05:30  INFO 13564 --- [Thread-39] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:46.220+05:30  INFO 13564 --- [Thread-39] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2026-10-04T21:45:46.231+05:30  INFO 13564 --- [Thread-39] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2026-10-04T21:45:46.448+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:46.448+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:46.907+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:46.936+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:47.042+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:47.042+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:47.042+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:47.067+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:47.067+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 619 ms
+2026-10-04T21:45:47.270+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:47.297+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.017s)
+2026-10-04T21:45:47.406+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:47.406+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:47.435+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:47.440+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:47.450+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:47.450+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2026-10-04T21:45:47.552+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection oracle.jdbc.driver.T4CConnection@5cd23a52
+2026-10-04T21:45:47.552+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2026-10-04T21:45:47.561+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:47.567+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:47.646+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:47.656+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:47.791+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:48.393+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:48.402+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:48.459+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:48.475+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.06 seconds (process running for 482.823)
+2026-10-04T21:45:48.478+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:49.991+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:49.996+05:30  INFO 13564 --- [Thread-43] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:50.003+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:50.018+05:30  INFO 13564 --- [Thread-43] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:50.018+05:30  INFO 13564 --- [Thread-43] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2026-10-04T21:45:50.023+05:30  INFO 13564 --- [Thread-43] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2026-10-04T21:45:50.259+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:50.259+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:50.721+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:50.756+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:50.856+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:50.856+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:50.856+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:50.893+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:50.893+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 634 ms
+2026-10-04T21:45:51.128+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:51.153+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.015s)
+2026-10-04T21:45:51.273+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:51.273+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:51.323+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:51.330+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:51.342+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:51.348+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2026-10-04T21:45:51.489+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection oracle.jdbc.driver.T4CConnection@31056daf
+2026-10-04T21:45:51.489+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2026-10-04T21:45:51.492+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:51.497+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:51.611+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:51.624+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:51.736+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:52.328+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:52.334+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:52.386+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:52.407+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.187 seconds (process running for 486.755)
+2026-10-04T21:45:52.410+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:53.805+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:53.807+05:30  INFO 13564 --- [Thread-47] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:53.826+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:53.829+05:30  INFO 13564 --- [Thread-47] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:53.829+05:30  INFO 13564 --- [Thread-47] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2026-10-04T21:45:53.839+05:30  INFO 13564 --- [Thread-47] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2026-10-04T21:45:54.036+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:54.037+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:54.702+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:54.742+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:54.953+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:54.953+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:54.953+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:54.995+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:54.995+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2026-10-04T21:45:55.249+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:55.271+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.016s)
+2026-10-04T21:45:55.427+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:55.432+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:55.475+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:55.481+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:55.492+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:55.493+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2026-10-04T21:45:55.573+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection oracle.jdbc.driver.T4CConnection@12bcb79b
+2026-10-04T21:45:55.573+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2026-10-04T21:45:55.576+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:55.581+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:55.678+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:55.688+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:55.831+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:56.220+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:56.232+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:56.273+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:56.299+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.321 seconds (process running for 490.648)
+2026-10-04T21:45:56.299+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:45:57.752+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:45:57.755+05:30  INFO 13564 --- [Thread-51] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:45:57.778+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:45:57.785+05:30  INFO 13564 --- [Thread-51] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:57.786+05:30  INFO 13564 --- [Thread-51] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2026-10-04T21:45:57.800+05:30  INFO 13564 --- [Thread-51] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2026-10-04T21:45:57.999+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:45:57.999+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:45:58.579+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:45:58.601+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:45:58.756+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:45:58.760+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:45:58.761+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:45:58.794+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:45:58.794+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 792 ms
+2026-10-04T21:45:59.013+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:45:59.030+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.013s)
+2026-10-04T21:45:59.179+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:45:59.180+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:45:59.213+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:45:59.220+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:45:59.232+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:45:59.233+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2026-10-04T21:45:59.315+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-14 - Added connection oracle.jdbc.driver.T4CConnection@668bcd42
+2026-10-04T21:45:59.315+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2026-10-04T21:45:59.315+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:45:59.315+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:45:59.383+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:45:59.393+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:45:59.556+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:45:59.904+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:45:59.912+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:45:59.961+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:45:59.980+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.03 seconds (process running for 494.329)
+2026-10-04T21:45:59.983+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:46:02.548+05:30  INFO 13564 --- [File Watcher] [clearflow-settlement,traceId=,spanId=]rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-10-04T21:46:02.552+05:30  INFO 13564 --- [Thread-55] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-04T21:46:02.574+05:30  INFO 13564 --- [tomcat-shutdown] [clearflow-settlement,traceId=,spanId=]o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-10-04T21:46:02.578+05:30  INFO 13564 --- [Thread-55] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:46:02.580+05:30  INFO 13564 --- [Thread-55] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2026-10-04T21:46:02.593+05:30  INFO 13564 --- [Thread-55] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2026-10-04T21:46:02.813+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Starting ClearflowSettlementApplication using Java 21 with PID 13564 (C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement\target\classes started by mdsay in C:\Users\mdsay\OneDrive\Desktop\Portfolio\clearflow-settlement)
+2026-10-04T21:46:02.813+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T21:46:03.494+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T21:46:03.520+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2026-10-04T21:46:03.672+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-10-04T21:46:03.676+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T21:46:03.676+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-10-04T21:46:03.711+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-10-04T21:46:03.711+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2026-10-04T21:46:03.914+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.flywaydb.core.FlywayExecutor         : Database: jdbc:oracle:thin:@//localhost:1521/XEPDB1 (Oracle 21.3)
+2026-10-04T21:46:03.930+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbValidate     : Successfully validated 12 migrations (execution time 00:00.014s)
+2026-10-04T21:46:04.066+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Current version of schema "CLEARFLOW": 12
+2026-10-04T21:46:04.069+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.f.core.internal.command.DbMigrate      : Schema "CLEARFLOW" is up to date. No migration necessary.
+2026-10-04T21:46:04.106+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T21:46:04.112+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T21:46:04.123+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T21:46:04.124+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2026-10-04T21:46:04.211+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.pool.HikariPool        : HikariPool-15 - Added connection oracle.jdbc.driver.T4CConnection@2a9c4334
+2026-10-04T21:46:04.212+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2026-10-04T21:46:04.216+05:30  WARN 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.deprecation            : HHH90000025: OracleDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T21:46:04.220+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-04T21:46:04.300+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.clearflow.settlement.entity.PaymentInstructionEntity (class must be instantiated by Interceptor)
+2026-10-04T21:46:04.306+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T21:46:04.445+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T21:46:04.772+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-10-04T21:46:04.772+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-10-04T21:46:04.817+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-10-04T21:46:04.833+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=]c.c.s.ClearflowSettlementApplication     : Started ClearflowSettlementApplication in 2.064 seconds (process running for 499.185)
+2026-10-04T21:46:04.833+05:30  INFO 13564 --- [restartedMain] [clearflow-settlement,traceId=,spanId=].ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-10-04T21:47:09.732+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-04T21:47:09.732+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-04T21:47:09.732+05:30  INFO 13564 --- [http-nio-8080-exec-1] [clearflow-settlement,traceId=,spanId=]o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
