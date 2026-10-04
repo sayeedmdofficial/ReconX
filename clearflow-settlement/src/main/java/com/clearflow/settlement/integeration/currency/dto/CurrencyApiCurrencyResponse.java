@@ -4,12 +4,15 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record CurrencyApiCurrencyResponse(
 
         String code,
 
         String name,
+
+        String symbol,
 
         @JsonProperty("decimal_digits")
         Integer decimalDigits,

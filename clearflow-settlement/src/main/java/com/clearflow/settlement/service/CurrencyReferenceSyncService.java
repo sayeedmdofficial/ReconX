@@ -13,10 +13,14 @@ import com.clearflow.settlement.integeration.currency.dto.CurrencyApiCurrencyRes
 public class CurrencyReferenceSyncService {
 
     private final CurrencyApiClient currencyApiClient;
+    private final CurrencyReferencePersistenceService persistenceService;
 
     public CurrencyReferenceSyncService(
-            CurrencyApiClient currencyApiClient) {
+            CurrencyApiClient currencyApiClient,
+            CurrencyReferencePersistenceService persistenceService) {
+
         this.currencyApiClient = currencyApiClient;
+        this.persistenceService = persistenceService;
     }
 
     public CurrencyReferenceRefreshResponse refreshCurrencies() {
@@ -24,12 +28,19 @@ public class CurrencyReferenceSyncService {
         Map<String, CurrencyApiCurrencyResponse> currencies =
                 currencyApiClient.fetchFiatCurrencies();
 
+        OffsetDateTime refreshedAt = OffsetDateTime.now();
+
         int fetchedCount = currencies.size();
+
+        int persistedCount =
+                persistenceService.persistCurrencies(
+                        currencies,
+                        refreshedAt);
 
         return new CurrencyReferenceRefreshResponse(
                 "SUCCESS",
                 fetchedCount,
-                0,
-                OffsetDateTime.now());
+                persistedCount,
+                refreshedAt);
     }
 }

@@ -11,7 +11,7 @@ import com.clearflow.settlement.service.CurrencyReferenceSyncService;
 import lombok.RequiredArgsConstructor;
 
 @RestController 
-@RequestMapping("api/v1/internal/reference-data/currencies")
+@RequestMapping("/api/v1/internal/reference-data/currencies")
 @RequiredArgsConstructor 
 public class CurrencyReferenceAdminController {
     private final CurrencyReferenceSyncService currencyReferenceSyncService;
