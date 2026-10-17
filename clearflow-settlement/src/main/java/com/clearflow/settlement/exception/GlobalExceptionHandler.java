@@ -269,6 +269,24 @@ public class GlobalExceptionHandler {
                                 List.of());
         }
 
+        @ExceptionHandler(BusinessRuleException.class)
+        public ResponseEntity<ApiErrorResponse> handleInvalidCurrencySupportException(
+                        BusinessRuleException exception,
+                        HttpServletRequest request) {
+
+                log.warn(
+                                "Business rule violation. path={}, message={}",
+                                request.getRequestURI(),
+                                exception.getMessage());
+
+                return buildResponse(
+                                HttpStatus.BAD_REQUEST,
+                                ErrorCode.INVALID_PARAMETER,
+                                exception.getMessage(),
+                                request,
+                                List.of());
+        }
+
         /*
          * -------------------------------------------------------
          * FINAL SAFETY NET

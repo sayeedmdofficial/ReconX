@@ -9,7 +9,9 @@ import com.clearflow.settlement.dto.PaymentInstructionResponse;
 import com.clearflow.settlement.entity.IngestionRequestEntity;
 import com.clearflow.settlement.entity.PaymentInstructionEntity;
 import com.clearflow.settlement.enums.PaymentStatus;
+import com.clearflow.settlement.exception.BusinessRuleException;
 import com.clearflow.settlement.exception.DuplicatePaymentException;
+import com.clearflow.settlement.repository.CurrencyReferenceRepository;
 import com.clearflow.settlement.repository.IngestionRepository;
 import com.clearflow.settlement.repository.PaymentRepository;
 
@@ -22,6 +24,7 @@ public class PaymentService {
 
         private final PaymentRepository paymentRepository;
         private final IngestionRepository ingestionRepository;
+        private final CurrencyReferenceRepository currencyReferenceRepository;
 
         @Transactional
         public PaymentInstructionResponse savePaymentDetails(
@@ -42,6 +45,12 @@ public class PaymentService {
                                                         + sourceSystem
                                                         + " and externalReference: "
                                                         + externalReference);
+                }
+                
+                boolean isCurrencySupported = currencyReferenceRepository.existsByCurrencyCodeAndSupportedTrue(paymentInstructionRequest.currency());
+
+                if(!isCurrencySupported){
+                        throw new BusinessRuleException("Currency not supported: " + paymentInstructionRequest.currency());
                 }
 
                 PaymentInstructionEntity paymentInstructionEntity = PaymentInstructionEntity.builder()
