@@ -17,4 +17,6 @@ public interface PaymentRepository extends JpaRepository<PaymentInstructionEntit
 
     Optional<PaymentInstructionEntity> findByIngestionId(
             UUID ingestionId);
+
+    
 }

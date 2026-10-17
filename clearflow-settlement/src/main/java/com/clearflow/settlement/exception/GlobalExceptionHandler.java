@@ -1,7 +1,9 @@
 package com.clearflow.settlement.exception;
 
 import java.time.OffsetDateTime;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -217,22 +219,23 @@ public class GlobalExceptionHandler {
          * Business validation
          * -------------------------------------------------------
          */
-        @ExceptionHandler(BusinessRuleException.class)
-        public ResponseEntity<ApiErrorResponse> handleBusinessRuleViolation(
-                        BusinessRuleException exception,
+
+        @ExceptionHandler(DuplicatePaymentException.class)
+        public ResponseEntity<ApiErrorResponse> handleDuplicatePayment(
+                        DuplicatePaymentException exception,
                         HttpServletRequest request) {
 
                 log.warn(
-                                "Business rule violation. path={}, message={}",
+                                "Duplicate payment instruction. path={}, message={}",
                                 request.getRequestURI(),
                                 exception.getMessage());
 
                 return buildResponse(
-                                HttpStatus.UNPROCESSABLE_ENTITY,
-                                ErrorCode.BUSINESS_RULE_VIOLATION,
+                                HttpStatus.CONFLICT,
+                                ErrorCode.DUPLICATE_PAYMENT,
                                 exception.getMessage(),
                                 request,
-                                List.of());
+                                null);
         }
 
         /*

@@ -1,1 +1,4 @@
 clearflow-settlement/CLEAR FLOW/opencollection.yml
+clearflow-settlement/logs/clearflow-settlement.log
+.gitignore
+.vscode/settings.json
